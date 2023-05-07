@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <form method="post">
+            <table>
+            <tr>
+            <td><label>Username:</td>
+                <td><input type='text' name='uname' value={{user}}></td>
+            </label></tr>
+            <br>
+            <tr>
+            <td><label>Password:</td>
+                <td><input type='password' name='pass1'/></td>
+            </label></tr>
+            <br>
+            <tr>
+            <td><label>Re-Enter Password:</td>
+                <td><input type='password' name='pass2'/></td>
+            </label></tr>
+            <br>
+            <tr>
+            <td><label>Email:</td>
+                <td><input type='email' name='email' value={{email}}></td>
+            </label></tr>
+            <br>
+            <tr>
+            <td><input type='submit'/></td>
+            </tr>
+            </table>
+        </form>
+        <h3 style="color:red">{{error}}</h3>
+    </body>
+</html>
